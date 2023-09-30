@@ -3,28 +3,28 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Max Konkin
+    tagline: Java Backend Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: mirk.mad@gmail.com
+    phone: +995 511 112 427
+    timezone: Georgia Standard Time – GET
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
+    website: #do not add http://
+    linkedin: max-konkin
+    xing:
+    github: konkinm
+    telegram: Mfx_m # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -34,232 +34,155 @@ sidebar:
       title: Languages
       info:
         - idiom: English
+          level: Upper-Intermediate
+
+        - idiom: Russian
           level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Music
+          link: https://soundcloud.com/mfx-music
+
+        - item: Traveling
           link:
 
-        - item: Snowboarding
-          link:
+        - item: Science
+          link: https://www.researchgate.net/publication/349506357_Selection_of_the_vibration-driven_Venus_rover_design_parameters
 
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      I'm a self-taught software engineer, complex problem-solver with
+      analytical and driven mindset. Dedicated to achieving demanding
+      development objectives according to tight schedules while producing
+      clean and robust code.
 
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Projects made by me:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: NASAPic
+        link: "https://github.com/konkinm/NASAPicOnSpring"
+        tagline: "telegram Bot on JAVA Spring which send you pics and
+        explanation text from NASA A Picture of A Day (APOD)
+        <a href=\"https://apod.ellanan.com/api\">Ellanan APOD API</a>
+        Deployed on Yandex Cloud: <a href=\"https://t.me/NASAPic_bot\">Try it out (:</a>"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: SimulationFXGL
+        link: "https://github.com/konkinm/SimulationFXGL"
+        tagline: "little GUI app. My implementation of the Hangman project from the 
+        <a href=\"https://zhukovsd.github.io/java-backend-learning-course/Projects/Simulation/\">
+        java-backend-learning-course</a>
+        using <a href=\"https://github.com/AlmasB/FXGL\">FXGL JavaFX library</a>"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Hangman
+        link: "https://github.com/konkinm/hangman"
+        tagline: "word game with CLI interface. My implementation of the Hangman project from the 
+        <a href=\"https://zhukovsd.github.io/java-backend-learning-course/Projects/Hangman/\">
+        java-backend-learning-course</a>"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+education:
+    title: Education
+    info:
+      - degree: Speciality in Aerospace Engineering
+        university: Bauman Moscow State Technical University, Moscow
+        time: 2010 - 2016
+        details: |
+          Aerospace Faculty, Spacecraft and Upper Stages (engineer)
+            - GPA 4.7
+            - Topic of the thesis: automatic interplanetary station for the
+            comprehensive study of Venus, Excellent protection
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+experiences:
+    title: Experiences
+    info:
+      - role: Freelancer
+        time: 2023 - Present
+        company: Self-Employed
+        details: |
+          Various projects. See 'Projects' section above.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - role: 3D Modeller
+        time: 2022 - Present
+        company: 2050lab, Moscow
+        details: |
+            Design of artistic and design objects as part of a team of
+            designers, in terms of the development of NURBS surfaces,
+            ensuring a high level of consumer properties and aesthetic
+            qualities of the designed structures, compliance with their
+            technical and economic requirements and progressive production
+            technology, ergonomic requirements.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - role: Design Engineer
+        time: 2016 - 2022
+        company: Aerospace company, Reutov, Russia
+        details: |
+          Development and support of working design documentation
+          (assembly units of medium and high complexity using
+          composite materials) on promising topics in rocket and space
+          technology within the framework of various research and development
+          projects for pilot and serial production.
+            - Implementation of designer's supervision over the manufacture
+            of products in pilot and serial production.
+            - Support for bench tests of various types (thermal, static,
+            dynamic).
+            - Interaction with related organizations.
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+certifications:
+      title: Certifications
+      list:
+        - name: Functional programming in Haskell
+          start: 2022
+          end: 2022
+          organization: Computer Science Center
+          credentialid:
+          credentialurl: https://stepik.org/cert/1540876?lang=en
+          credentialname: Stepik Certicate
+          details: |
+            The course introduces students to Haskell, the most famous pure
+            functional programming language. We'll explore the concepts and
+            programming techniques of functional languages and learn how to
+            apply them using the rich tools Haskell provides.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        - name: Java. Basic course
+          start: 2023
+          end: 2023
+          organization: Computer Science Center
+          credentialid: 
+          credentialurl: https://stepik.org/cert/2122446?lang=en
+          credentialname: Stepik Certicate
+          details: |
+            The introductory course will introduce students to the basic
+            capabilities of the Java programming language.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Python & Django
-        level: 98%
+       - OOP
+       - Java
+       - Spring MVC/Boot/Data
+       - Microservices
+       - Serverless stack
+       - API design
+       - JPA
+       - SQL
+       - REST
+       - JUnit
+       - Maven
+       - JavaFX
+       - HTML/CSS
+       - JavaScript
+       - Git
+       - Docker
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

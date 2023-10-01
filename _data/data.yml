@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: mirk.mad@gmail.com
     phone: +995 511 112 427
-    timezone: Georgia Standard Time – GET
+    timezone: Georgia Standard Time (UTC+4)
     citizenship:
     website: #do not add http://
     linkedin: max-konkin
@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: Save
+    pdf: Save this page as PDF
 
     languages:
       title: Languages

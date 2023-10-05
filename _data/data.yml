@@ -75,7 +75,7 @@ projects:
 
       - title: SimulationFXGL
         link: "https://github.com/konkinm/SimulationFXGL"
-        tagline: "little GUI app. My implementation of the Hangman project from the 
+        tagline: "little GUI app. My implementation of the Simulation project from the 
         <a href=\"https://zhukovsd.github.io/java-backend-learning-course/Projects/Simulation/\">
         java-backend-learning-course</a>
         using <a href=\"https://github.com/AlmasB/FXGL\">FXGL JavaFX library</a>"

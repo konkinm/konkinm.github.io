@@ -80,13 +80,6 @@ projects:
         java-backend-learning-course</a>
         using <a href=\"https://github.com/AlmasB/FXGL\">FXGL JavaFX library</a>"
 
-      - title: Hangman
-        link: "https://github.com/konkinm/hangman"
-        tagline: "word game with CLI interface. My implementation of the Hangman project from the 
-        <a href=\"https://zhukovsd.github.io/java-backend-learning-course/Projects/Hangman/\">
-        java-backend-learning-course</a>"
-
-
 education:
     title: Education
     info:

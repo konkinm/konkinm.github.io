@@ -98,6 +98,21 @@ p {
       }
     }
   }
+  .pdf {
+    .fas,
+    .fab,
+    .far {
+      margin-right: 5px;
+      font-size: 18px;
+      vertical-align: middle;
+    }
+    li {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
   .container-block {
     padding: 30px;
   }
@@ -254,12 +269,13 @@ p {
 
 .skillset {
   .item {
+    margin-top: 15px;
     margin-bottom: 15px;
     overflow: hidden;
   }
   .label-padded {
 	padding: 5px;
-	line-height: 28px;
+	line-height: 32px;
   }
   .label-info, .badge-info {
 	background-color: darken($theme-color, 10%);

@@ -106,6 +106,17 @@ experiences:
 certifications:
       title: Certifications
       list:
+        - name: Java. Basic course
+          start: 2023
+          end: 2023
+          organization: Computer Science Center
+          credentialid: 
+          credentialurl: stepik.org/cert/2122446?lang=en
+          credentialname: Stepik Certicate
+          details: |
+            The introductory course will introduce students to the basic
+            capabilities of the Java programming language.
+
         - name: Functional programming in Haskell
           start: 2022
           end: 2022
@@ -118,17 +129,6 @@ certifications:
             functional programming language. We'll explore the concepts and
             programming techniques of functional languages and learn how to
             apply them using the rich tools Haskell provides.
-
-        - name: Java. Basic course
-          start: 2023
-          end: 2023
-          organization: Computer Science Center
-          credentialid: 
-          credentialurl: stepik.org/cert/2122446?lang=en
-          credentialname: Stepik Certicate
-          details: |
-            The introductory course will introduce students to the basic
-            capabilities of the Java programming language.
 
 
 skills:

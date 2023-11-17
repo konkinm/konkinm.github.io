@@ -1,7 +1,21 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
-<section class="skills-section section">
 
+  {% if site.data.data.sidebar.skills %}
+  <div class="skills-container container-block">
+
+    <h2 class="container-block-title">
+      {{ skills.title }}
+    </h2>
+
+    {% for skill in skills.toolset %}
+    <span class="label label-info label-padded"> {{skill}} </span> &nbsp; <!--//skill-->
+    {% endfor %}
+
+  </div><!--//skills-container-->
+
+  {% else %}
+  <section class="skills-section section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -9,18 +23,11 @@
     </span>
     {{ skills.title }}
   </h2>
-
   <div class="skillset">
-
     {% for skill in skills.toolset %}
-    
-
       <span class="label label-info label-padded"> {{skill}} </span> &nbsp;
-
-    
     {% endfor %}
-
   </div>
-
-</section><!--//skills-section-->
+  </section><!--//skills-section-->
+  {% endif %}
 {% endif %}

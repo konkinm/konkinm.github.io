@@ -152,6 +152,21 @@ p {
       color: rgba(256, 256, 256, 0.6);
     }
   }
+  .skills-container {
+    .item {
+      overflow: hidden;
+    }
+    .label-padded {
+      padding: 5px;
+      line-height: 32px;
+      }
+      .label-info, .badge-info {
+      background-color: darken($theme-color, 10%);
+      text-shadow:none;
+      font-weight: normal;
+      font-size: 12px;
+      }
+  }
 
   .languages-list {
     margin-bottom: 0;
@@ -297,4 +312,3 @@ p {
     color: $heart;
   }
 }
-

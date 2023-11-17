@@ -5,17 +5,18 @@
 sidebar:
     position: left # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+    skills: True # set to False if you want skills in main section instead of in sidebar
 
     # Profile information
     name: Max Konkin
     tagline: Java Backend Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #place a 400x400 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: mirk.mad@gmail.com
     phone: +995 511 112 427
-    timezone: Georgia Standard Time (UTC+4)
+    timezone: Tbilisi, Georgia (UTC+4)
     citizenship:
     website: #do not add http://
     linkedin: max-konkin
@@ -82,7 +83,7 @@ education:
           Aerospace Faculty, Spacecraft and Upper Stages (engineer)
             - GPA 4.7
             - Topic of the thesis: automatic interplanetary station for the
-            comprehensive study of Venus, Excellent protection
+            comprehensive study of Venus, excellent protection
 
 experiences:
     title: Previous experience

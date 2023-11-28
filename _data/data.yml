@@ -62,9 +62,8 @@ projects:
         link: "https://github.com/konkinm/NASAPicOnSpring"
         tagline: "telegram Bot on JAVA Spring which send you pics and
         explanation text from NASA A Picture of A Day (APOD)
-        <a href=\"https://apod.ellanan.com/api\">Ellanan APOD API</a>
-        Deployed on Yandex Cloud: <a href=\"https://t.me/NASAPic_bot\">link</a><br>
-        <u>Stack:</u> Spring Boot, Serverless, <a href=\"https://github.com/rubenlagus/TelegramBots\">TelegramBots</a>, REST Api"
+                Deployed on Yandex Cloud: <a href=\"https://t.me/NASAPic_bot\">link</a><br>
+        <u>Stack:</u> Spring Boot, Serverless, <a href=\"https://github.com/rubenlagus/TelegramBots\">TelegramBots</a>, <a href=\"https://apod.ellanan.com/api\">REST Api</a>  Client"
 
       - title: SimulationFXGL
         link: "https://github.com/konkinm/SimulationFXGL"
@@ -88,7 +87,7 @@ education:
 experiences:
     title: Previous experience
     info:
-      - role: 3D Modeller
+      - role: Design Engineer, 3D Modeller
         time: 2022 - Present
         company: 2050lab, Moscow
         details: |
@@ -109,7 +108,7 @@ certifications:
       list:
         - name: Java. Basic course
           start: 2023
-          end: 2023
+          end:
           organization: Computer Science Center
           credentialid: 
           credentialurl: stepik.org/cert/2122446?lang=en
@@ -120,7 +119,7 @@ certifications:
 
         - name: Functional programming in Haskell
           start: 2022
-          end: 2022
+          end:
           organization: Computer Science Center
           credentialid:
           credentialurl: stepik.org/cert/1540876?lang=en
@@ -164,4 +163,5 @@ career-profile:
 
 
 footer: 
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" 
+    target="_blank" rel="nofollow">Xiaoying Riley</a>

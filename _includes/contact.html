@@ -43,6 +43,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.hh %}
+    <li class="hh"><i class="fas fa-user-circle"></i>
+      <a href="https://hh.ru/resume/{{ sidebar.hh }}" target="_blank">  hh.ru</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.xing %}
     <li class="xing"><i class="fab fa-xing"></i>
       <a href="https://www.xing.com/profile/{{ sidebar.xing }}" target="_blank">{{ sidebar.xing }}</a>

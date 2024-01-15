@@ -6,7 +6,14 @@
 > This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 > Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+[Webjeda](https://blog.webjeda.com/) have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
+
+And I slightly modified it for my taste:
+  - sidebar moved to the left;
+  - main sections rearranged;
+  - 'Previous experience' section added;
+  - skills converted into bullets and moved to the sidebar;
+  - some other minor changes.
 
 <table>
   <tr>

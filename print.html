@@ -8,15 +8,16 @@ permalink: /print
 
 {% include certifications.html %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
 
 {% include experiences.html %}
 
 {% include prev-experiences.html %}
 
 {% include publications.html %}
+
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
 {% unless site.data.data.sidebar.skills %}
   {% include skills.html %}

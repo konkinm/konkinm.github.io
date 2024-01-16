@@ -47,20 +47,16 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
       - name: html to pdf
         uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: ./_site/print.html
-          outputFile: ./MaxKonkin_CV.pdf
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: Max Konkin CV
-          path: ./MaxKonkin_CV.pdf
+          outputFile: ./_site/MaxKonkin_CV.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'    
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v3
+
 
   # Deployment job
   deploy:
@@ -73,4 +69,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-            

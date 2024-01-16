@@ -13,6 +13,8 @@ And I slightly modified it for my taste:
   - main sections rearranged;
   - 'Previous experience' section added;
   - skills converted into bullets and moved to the sidebar;
+  - profile pic resolution changed to 400x400;
+  - custom favicons added;
   - some other minor changes.
 
 <table>

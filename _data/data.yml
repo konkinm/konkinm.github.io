@@ -14,7 +14,7 @@ sidebar:
     avatar: profile.png  #place a 400x400 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: mirk.mad@gmail.com
+    email: maximka.konkin@yandex.ru
     phone: +995 511 112 427
     timezone: Tbilisi, Georgia (UTC+4)
     citizenship:
@@ -62,7 +62,7 @@ projects:
       - title: Restaurant Voting Rest API Application
         link: "https://github.com/konkinm/restaurantvoting"
         tagline: "REST API for a voting system for deciding where to have lunch with authorization and role-based access rights.<br>
-        <u>Stack:</u>  JDK 21, Spring Boot 3.x, Lombok, H2, Caffeine Cache, SpringDoc OpenApi 2.x, JPA, Hibernate, Swagger"
+        <u>Stack:</u>  JDK 21, Spring Boot 3.2, Lombok, H2, Caffeine Cache, SpringDoc OpenApi 2.x, JPA, Hibernate, Swagger"
 
       - title: NASAPic
         link: "https://github.com/konkinm/NASAPicOnSpring"
@@ -168,7 +168,7 @@ skills:
     toolset:
        - OOP
        - Java 8 Stream API
-       - Spring MVC/Boot/Data/Security
+       - Spring Boot/MVC/Data/Security
        - REST API design (Jackson, Swagger)
        - Serverless
        - JPA (Hibernate)
@@ -194,7 +194,6 @@ career-profile:
       In my free time, I am fond of technology and technical means: airplanes, 
       helicopters, spacecraft, computers and programming, CNC machines, 3D printers, etc.<br>
       I play the piano a little, I bake wonderful cupcakes (:
-
 
 footer: 
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" 

@@ -3,28 +3,83 @@
     @page {
         size: A4;
     }
+
     body {
        font-size: 10pt;
     }
 
+    a[href] {
+      &:not(.nohref) {
+        &:after {
+         content: " (" attr(href) ")";
+        }
+      }
+    }
+
+    a[href]:after {
+      content: "";
+      }
+
+    .section {
+      margin-bottom: 0.4in; 
+    }
+
     img.avatar {
+        width: 200px;
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
     }
+
    .main-wrapper .time {
-       float: left;
+       position: static;
+       display: block;
+       margin-top: 5px;
         color: black !important;
         -webkit-print-color-adjust: exact; 
    }
-    .sidebar-wrapper {
+   
+   .sidebar-wrapper {
+        margin: 0;
         position: static;
-        float: left;
-        width: 40%;
+        width: inherit;
         -webkit-print-color-adjust: exact; 
 
-        .pdf {
+        .profile-container {
+         padding: 15px;
+         margin: 0;
+        }
+
+        .contact-container {
+         padding-top: 30px;
+         padding-bottom: 0;
+         margin: 0;
+        }
+
+        .skills-container {
+         padding-top: 30px;
+         padding-bottom: 0;
+         margin: 0;
+        }
+
+        .pdf-container {
          display: none;
         }
+        
+        .interests-container {
+         display: none;
+        }
+
+        .container-block {
+         padding: 15px;
+        }
+    }
+
+    .main-wrapper .upper-row {
+      margin-bottom: 0;
+    }
+
+    .main-wrapper {
+      padding: 15px;
     }
 
     .remove-container.container-block {

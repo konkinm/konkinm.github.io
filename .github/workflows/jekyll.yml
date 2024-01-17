@@ -53,7 +53,7 @@ jobs:
           baseUrl: ./_site/
           htmlFile: print.html
           outputFile: ./_site/MaxKonkin_CV.pdf
-          pdfOptions: '{"margin": {"top": "0.38in", "left": "0.74in", "right": "0.74in", "bottom": "0.38in"}}'   
+          pdfOptions: '{"margin": {"top": "0.38in", "left": "0.38in", "right": "0.38in", "bottom": "0.38in"}}'   
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

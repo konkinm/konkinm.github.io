@@ -17,6 +17,8 @@ And I slightly modified it for my taste:
   - custom favicons added;
   - some other minor changes.
 
+Also I've added custom GitHub action to convert print.html page to PDF and deploy it to pages site.
+
 <table>
   <tr>
     <th>Desktop</th>

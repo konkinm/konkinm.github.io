@@ -5,17 +5,6 @@
 <!-- custom js -->
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
 
-
-<!--Save to PDF
-<script>
-  document.getElementById('saveAsPdfBtn').addEventListener('click', function(e){
-    var pageUrl = encodeURIComponent(window.location.href);
-    var opts = ['save-link=' + pageUrl + 'print', 'pageOrientation=auto'];
-    window.open('https://www.sejda.com/html-to-pdf?' + opts.join('&'));
-    e.preventDefault();
-  });
-</script>-->
-
 {% if site.analytics %}
   {% include analytics.html %}
 {% endif %}

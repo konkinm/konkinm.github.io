@@ -132,7 +132,7 @@ certifications:
           end:
           organization: Java Online Projects
           credentialid:
-          credentialurl: javaops.ru/certificate/topjava?lang=en&email=mirk.mad@gmail.com
+          credentialurl: https://javaops.ru/certificate/topjava?lang=en&email=mirk.mad@gmail.com
           credentialname: JavaOPs Certificate
           details: |
             Participation in the development of Spring 5/JPA Enterprise application 
@@ -142,7 +142,7 @@ certifications:
           end:
           organization: Computer Science Center
           credentialid:
-          credentialurl: stepik.org/cert/2122446?lang=en
+          credentialurl: https://stepik.org/cert/2122446?lang=en
           credentialname: Stepik Certificate
           details: |
             The introductory course will introduce students to the basic
@@ -153,7 +153,7 @@ certifications:
           end:
           organization: Computer Science Center
           credentialid:
-          credentialurl: stepik.org/cert/1540876?lang=en
+          credentialurl: https://stepik.org/cert/1540876?lang=en
           credentialname: Stepik Certificate
           details: |
             The course introduces students to Haskell, the most famous pure

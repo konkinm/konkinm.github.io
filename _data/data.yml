@@ -157,9 +157,7 @@ certifications:
           credentialname: Stepik Certificate
           details: |
             The course introduces students to Haskell, the most famous pure
-            functional programming language. We'll explore the concepts and
-            programming techniques of functional languages and learn how to
-            apply them using the rich tools Haskell provides.
+            functional programming language.
 
 
 skills:
@@ -189,12 +187,12 @@ skills:
 career-profile:
     title: About
     summary: |
-      I'm a self-taught software engineer, complex problem-solver with
-      analytical and driven mindset.<br>
-      In my free time, I am fond of technology and technical means: airplanes, 
-      helicopters, spacecraft, computers and programming, CNC machines, 3D printers, etc.<br>
+      I'm a self-taught software engineer with strong mechanical design engineering 
+      background, complex problem-solver with analytical and driven mindset. 
+      I am fond of technology and technical means: 
+      computers and programming, Internet.<br><br>
       I play the piano a little, I bake wonderful cupcakes (:
 
 footer: 
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" 
-    target="_blank" rel="nofollow">Xiaoying Riley</a>
+    target="_blank" rel="nofollow">Xiaoying Riley</a> and modified by me.

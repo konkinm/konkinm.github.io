@@ -3,7 +3,7 @@
 # Site Settings
 title: Max Konkin
 url: 'http://konkinm.github.io/online-cv'
-exclude: ["README.md", "docker-compose.yml"]
+exclude: [vendor, "README.md", "docker-compose.yml"] # https://github.com/jekyll/jekyll/issues/2938
 
 #change it according to your repository name
 # disabling since we are using a custom domain

@@ -61,12 +61,12 @@ projects:
     assignments:
       - title: Restaurant Voting Rest API Application
         link: "https://github.com/konkinm/restaurantvoting"
-        tagline: "REST API for a voting system for deciding where to have lunch with authorization and role-based access rights.<br>
+        tagline: "Developed REST API for a voting system for deciding where to have lunch with authorization and role-based access rights.<br>
         <u>Stack:</u>  JDK 21, Spring Boot 3.2, Lombok, H2, Caffeine Cache, SpringDoc OpenApi 2.x, JPA, Hibernate, Swagger"
 
       - title: NASAPic
         link: "https://github.com/konkinm/NASAPicOnSpring"
-        tagline: "telegram Bot Spring Boot serverless app which send to you pics and
+        tagline: "Developed and now supporting of telegram Bot Spring Boot serverless app which send to you pics and
         explanation text from NASA A Picture of A Day (APOD) project.
         Deployed on Yandex Cloud: <a href=\"https://t.me/NASAPic_bot\">link</a><br>
         <u>Stack:</u> Spring Boot, Serverless, <a href=\"https://github.com/rubenlagus/TelegramBots\">TelegramBots</a>, <a href=\"https://apod.ellanan.com/api\">REST Api</a>  Client"
@@ -80,9 +80,6 @@ education:
         time: 2010 - 2016
         details: |
           Aerospace Faculty, Spacecraft and Upper Stages (engineer)
-            - GPA 4.7
-            - Topic of the thesis: automatic interplanetary station for the
-            comprehensive study of Venus, excellent protection
 
 experiences:
     title: Experience
@@ -91,13 +88,13 @@ experiences:
         time: September 2023 - January 2024
         company: <a href="http://javaops.ru/view/topjava">Java Online Projects</a>
         details: |
-          Participation in the development of Spring/JPA Enterprise applications with authorization and access rights based on roles
+          Participated in the development of Spring/JPA Enterprise applications with authorization and access rights based on roles
            on the Maven/ Spring MVC/ Security/ REST(Jackson)/ Java 8 Stream API stack:
-            - implementation of saving to Postgres and HSQLDB databases based on Spring JBDC, JPA (Hibernate) and Spring-Data-JPA
-            - implementation and testing of REST and AJAX controllers
-            - client implementation using Bootstrap (css/js), DataTables, jQuery + plugins.
-            - migration to Spring Boot 3.2, Lombok, H2, Swagger/OpenAPI 3.0
-            - own revision of the project.
+            - implemented of saving to Postgres and HSQLDB databases based on Spring JBDC, JPA (Hibernate) and Spring-Data-JPA
+            - implemented and tested of REST and AJAX controllers (created more than 100 JUnit tests)
+            - implemented client using Bootstrap (css/js), DataTables, jQuery + plugins.
+            - migrated app to Spring Boot 3.2, Lombok, H2, Swagger/OpenAPI 3.0
+            - made own revision of the project.
 
 prev-experiences:
     title: Previous experience
@@ -106,14 +103,14 @@ prev-experiences:
         time: 2022 - Present
         company: <a href="https://2050lab.ru/">2050lab</a>, Moscow, Russia
         details: |
-            Design of artistic and design objects as part of a team of
+            Created design of artistic and design objects as part of a team of
             designers.
 
       - role: Design Engineer
         time: 2016 - 2022
         company: Aerospace company, Moscow region, Russia
         details: |
-          Development and support of design documentation
+          Developed and supported design documentation
            on topics in rocket and space
           technology within the framework of various research and development
           projects for pilot and serial production.
@@ -129,7 +126,7 @@ certifications:
           credentialurl: https://javaops.ru/certificate/topjava?lang=en&email=mirk.mad@gmail.com
           credentialname: JavaOPs Certificate
           details: |
-            Participation in the development of Spring 5/JPA Enterprise application 
+            Participated in the development of Spring 5/JPA Enterprise application 
             with authorization and role-based access rights.
         - name: Java. Basic course
           start: 2023
@@ -138,9 +135,6 @@ certifications:
           credentialid:
           credentialurl: https://stepik.org/cert/2122446?lang=en
           credentialname: Stepik Certificate
-          details: |
-            The introductory course will introduce students to the basic
-            capabilities of the Java programming language.
 
         - name: Functional programming in Haskell
           start: 2022
@@ -149,9 +143,6 @@ certifications:
           credentialid:
           credentialurl: https://stepik.org/cert/1540876?lang=en
           credentialname: Stepik Certificate
-          details: |
-            The course introduces students to Haskell, the most famous pure
-            functional programming language.
 
 
 skills:
@@ -181,11 +172,12 @@ skills:
 career-profile:
     title: About
     summary: |
-      I'm a self-taught software engineer with strong mechanical design engineering 
-      background, complex problem-solver with analytical and driven mindset. 
-      I am fond of technology and technical means: 
-      computers and programming, Internet.<br><br>
-      I play the piano a little, I bake wonderful cupcakes (:
+      I am a self-taught software engineer with over 7 years of experience in the field of mechanical engineering. 
+      I love Java and other programming languages with strong static type system.<br>
+      I like and I'm able to solve complex technical problems, I have an analytical and driven mindset.
+      I am interested in technology and technical means:
+      computers, programming, web technologies.<br><br>
+      I play the piano a little, bake wonderful cupcakes (:
 
 footer: 
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" 

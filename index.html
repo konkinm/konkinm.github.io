@@ -5,8 +5,6 @@ layout: default
 
 {% include projects.html %}
 
-{% include certifications.html %}
-
 {% include experiences.html %}
 
 {% include prev-experiences.html %}
@@ -18,6 +16,8 @@ layout: default
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
+
+{% include certifications.html %}
 
 {% unless site.data.data.sidebar.skills %}
   {% include skills.html %}

@@ -6,8 +6,6 @@ permalink: /print
 
 {% include projects.html %}
 
-{% include certifications.html %}
-
 {% include experiences.html %}
 
 {% include prev-experiences.html %}
@@ -17,6 +15,8 @@ permalink: /print
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
+
+{% include certifications.html %}
 
 {% unless site.data.data.sidebar.skills %}
   {% include skills.html %}

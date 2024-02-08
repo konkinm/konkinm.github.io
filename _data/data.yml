@@ -71,12 +71,6 @@ projects:
         Deployed on Yandex Cloud: <a href=\"https://t.me/NASAPic_bot\">link</a><br>
         <u>Stack:</u> Spring Boot, Serverless, <a href=\"https://github.com/rubenlagus/TelegramBots\">TelegramBots</a>, <a href=\"https://apod.ellanan.com/api\">REST Api</a>  Client"
 
-      - title: SimulationFXGL
-        link: "https://github.com/konkinm/SimulationFXGL"
-        tagline: "little GUI app. My implementation of the Simulation project from the 
-        <a href=\"https://zhukovsd.github.io/java-backend-learning-course/Projects/Simulation/\">
-        java-backend-learning-course</a><br>
-        <u>Stack:</u> JavaFX, <a href=\"https://github.com/AlmasB/FXGL\">FXGL</a>"
 
 education:
     title: Education

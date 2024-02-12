@@ -25,7 +25,9 @@
     }
 
     img.avatar {
-        display: none;
+      width: 200px;
+      filter: grayscale(1);
+      -webkit-filter: greyscale(1);
     }
 
    .main-wrapper .time {
@@ -35,15 +37,15 @@
         color: black !important;
         -webkit-print-color-adjust: exact; 
    }
-
-   .main-wrapper .section {
-        margin-bottom: 30px;
-    }
-
-    .main-wrapper .section-title {
-        margin-bottom: 10px;
-    }   
    
+   .main-wrapper .section {
+    margin-bottom: 30px;
+  }
+
+  .main-wrapper .section-title {
+    margin-bottom: 10px;
+  }
+
    .sidebar-wrapper {
         margin: 0;
         position: static;
@@ -59,6 +61,7 @@
          padding-top: 15px;
          padding-bottom: 0;
          margin: 0;
+         font-size: 8pt;
         }
 
         .skills-container {
@@ -90,6 +93,23 @@
 
     .remove-container.container-block {
        display: none;
+    }
+
+    .cols {
+	    white-space: nowrap;
+      margin-bottom: 0.3in;
+    }
+    .col-item {
+	    white-space: normal;	
+	    display: inline-block;
+	    width: 46%;
+    	vertical-align: top;
+    }
+    .cols .col-item:first-child {
+    	margin-right: 1%;
+    }
+    .col-item-text {
+      text-align: left;
     }
 
     footer {

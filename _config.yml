@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Max Konkin
-url: 'http://konkinm.github.io/online-cv'
+url: 'http://maxkonkin.space'
 exclude: ['vendor/', '.sass-cache/', '.jekyll-cache/', 'gemfiles/', "Gemfile", "Gemfile.lock", "README.md", "docker-compose.yml"]
 
 #change it according to your repository name
@@ -35,3 +35,11 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 127.0.0.1
 safe: false
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# Localization
+languages: ["en", "ru"]
+exclude_from_localizations: ["assets"]

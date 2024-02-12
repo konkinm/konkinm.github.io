@@ -13,13 +13,13 @@ layout: default
 
 {% include publications.html %}
 
-{% unless site.data.data.sidebar.education %}
+{% unless site.translations[site.lang].sidebar.education %}
   {% include education.html %}
 {% endunless %}
 
 {% include certifications.html %}
 
-{% unless site.data.data.sidebar.skills %}
+{% unless site.translations[site.lang].sidebar.skills %}
   {% include skills.html %}
 {% endunless %}
 

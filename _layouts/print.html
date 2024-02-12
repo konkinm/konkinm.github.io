@@ -6,7 +6,7 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en">
+<html lang="{{ site.lang }}">
   <!--<![endif]-->
   {% include head.html %}
   <style>
@@ -19,10 +19,26 @@
     .pdf {
       display: none !important;
     }
+    .cols {
+	    white-space: nowrap;
+      margin-bottom: 0.3in;
+    }
+    .col-item {
+	    white-space: normal;	
+	    display: inline-block;
+	    width: 48%;
+    	vertical-align: top;
+    }
+    .cols .col-item:first-child {
+    	margin-right: 2%;
+    }
+    .col-item-text {
+      text-align: left;
+    }
   </style>
   <body>
     <div class="wrapper">
-      {% include sidebar.html %}
+      {% include sidebar-print.html %}
 
       <div class="main-wrapper">{{ content }}</div>
     </div>

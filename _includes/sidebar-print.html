@@ -1,0 +1,67 @@
+{% assign sidebar = site.translations[site.lang].sidebar %}
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+
+    <div class="cols">
+
+      <div class="col-item">
+
+        {% if sidebar.avatar %}
+          <img class="avatar" src="{{ site.baseurl_root }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+        {% endif %}
+        
+        {% if sidebar.name %}
+          <h1 class="name">{{ sidebar.name }}</h1>
+        {% endif %}
+        
+        {% if sidebar.tagline %}
+          <h3 class="tagline">{{ sidebar.tagline }}</h3>
+        {% endif %}
+
+      </div>
+
+      <div class="col-item">
+
+        <div class="col-item-text">
+
+          {% include contact.html %}
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="cols">
+
+      <div class="col-item">
+        {% if sidebar.skills %}
+          {% include skills.html %}
+        {% endif %}
+      </div>
+
+      <div class="col-item">
+
+        {% include language.html %}
+        
+      </div>
+
+    </div>
+
+    {% if sidebar.education %}
+      {% include education.html %}
+    {% endif %}
+    
+    {% include interests.html %}
+    
+    {% if sidebar.about %}
+      {% include about.html %}
+    {% endif %}
+    
+    {% include pdf.html %}
+
+  </div><!--//profile-container-->
+
+
+</div><!--//sidebar-wrapper-->

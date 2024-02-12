@@ -312,3 +312,11 @@ p {
     color: $heart;
   }
 }
+
+.site-language {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  text-align: right;
+  color: $text-color-secondary;
+}

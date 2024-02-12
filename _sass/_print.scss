@@ -21,13 +21,13 @@
       }
 
     .section {
-      margin-bottom: 0.4in; 
+      margin-bottom: 0.1in; 
     }
 
     img.avatar {
-        width: 200px;
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+      width: 200px;
+      filter: grayscale(1);
+      -webkit-filter: greyscale(1);
     }
 
    .main-wrapper .time {
@@ -38,6 +38,14 @@
         -webkit-print-color-adjust: exact; 
    }
    
+   .main-wrapper .section {
+    margin-bottom: 30px;
+  }
+
+  .main-wrapper .section-title {
+    margin-bottom: 10px;
+  }
+
    .sidebar-wrapper {
         margin: 0;
         position: static;
@@ -45,18 +53,19 @@
         -webkit-print-color-adjust: exact; 
 
         .profile-container {
-         padding: 15px;
+         padding: 7px;
          margin: 0;
         }
 
         .contact-container {
-         padding-top: 30px;
+         padding-top: 15px;
          padding-bottom: 0;
          margin: 0;
+         font-size: 8pt;
         }
 
         .skills-container {
-         padding-top: 30px;
+         padding-top: 15px;
          padding-bottom: 0;
          margin: 0;
         }
@@ -70,7 +79,7 @@
         }
 
         .container-block {
-         padding: 15px;
+         padding: 7px;
         }
     }
 
@@ -79,11 +88,28 @@
     }
 
     .main-wrapper {
-      padding: 15px;
+      padding: 7px;
     }
 
     .remove-container.container-block {
        display: none;
+    }
+
+    .cols {
+	    white-space: nowrap;
+      margin-bottom: 0.3in;
+    }
+    .col-item {
+	    white-space: normal;	
+	    display: inline-block;
+	    width: 46%;
+    	vertical-align: top;
+    }
+    .cols .col-item:first-child {
+    	margin-right: 1%;
+    }
+    .col-item-text {
+      text-align: left;
     }
 
     footer {

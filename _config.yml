@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Max Konkin
-url: 'http://konkinm.github.io/online-cv'
+url: 'http://maxkonkin.space'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
@@ -32,5 +32,13 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
+host: 127.0.0.1
 safe: false
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
+
+# Localization
+languages: ["en", "ru"]
+exclude_from_localizations: ["assets"]

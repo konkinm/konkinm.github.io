@@ -3,6 +3,7 @@
 # Site Settings
 title: Max Konkin
 url: 'http://maxkonkin.space'
+exclude: ['vendor/', '.sass-cache/', '.jekyll-cache/', 'gemfiles/', "Gemfile", "Gemfile.lock", "README.md", "docker-compose.yml"]
 
 #change it according to your repository name
 # disabling since we are using a custom domain

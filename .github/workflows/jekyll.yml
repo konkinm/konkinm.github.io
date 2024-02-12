@@ -47,13 +47,20 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: html to pdf
+      - name: html to pdf en
         uses: lucafaggianelli/html-to-pdf-action@master
         with:
           baseUrl: ./_site/
           htmlFile: print.html
-          outputFile: ./_site/MaxKonkin_CV.pdf
+          outputFile: ./_site/MaxKonkin_CV-en.pdf
           pdfOptions: '{"margin": {"top": "0.38in", "left": "0.37in", "right": "0.37in", "bottom": "0.38in"}}'   
+      - name: html to pdf ru
+        uses: lucafaggianelli/html-to-pdf-action@master
+        with:
+          baseUrl: ./_site/ru
+          htmlFile: print.html
+          outputFile: ./_site/ru/MaxKonkin_CV-ru.pdf
+          pdfOptions: '{"margin": {"top": "0.38in", "left": "0.37in", "right": "0.37in", "bottom": "0.38in"}}'  
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3

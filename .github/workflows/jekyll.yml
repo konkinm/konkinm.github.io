@@ -57,9 +57,9 @@ jobs:
       - name: html to pdf ru
         uses: lucafaggianelli/html-to-pdf-action@master
         with:
-          baseUrl: ./_site/ru/
-          htmlFile: print.html
-          outputFile: ./_site/ru/MaxKonkin_CV-ru.pdf
+          baseUrl: ./_site/
+          htmlFile: ru/print.html
+          outputFile: ./_site/MaxKonkin_CV-ru.pdf
           pdfOptions: '{"margin": {"top": "0.38in", "left": "0.37in", "right": "0.37in", "bottom": "0.38in"}}'  
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default

@@ -52,11 +52,12 @@ p {
     color: #fff;
   }
   .profile-container {
-    padding: 30px;
-    //background: darken($theme-color, 10%);
+    padding-top: 20px;
+    padding-bottom: 30px;
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
+
   }
   .name {
     font-size: 32px;
@@ -314,9 +315,11 @@ p {
 }
 
 .site-language {
-  max-width: 1000px;
+  background: rgba(0, 0, 0, 0.2);
   margin: 0 auto;
+  padding-left: 7px;
   position: relative;
-  text-align: right;
+  text-align: left;
   color: $text-color-secondary;
+  text-decoration: underline white;
 }

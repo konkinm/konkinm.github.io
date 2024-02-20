@@ -19,6 +19,10 @@
           <h3 class="tagline">{{ sidebar.tagline }}</h3>
         {% endif %}
 
+        <br/><br/>
+
+        {% include language.html %}
+          
       </div>
 
       <div class="col-item">
@@ -33,21 +37,9 @@
 
     </div>
 
-    <div class="cols">
-
-      <div class="col-item">
-        {% if sidebar.skills %}
-          {% include skills.html %}
-        {% endif %}
-      </div>
-
-      <div class="col-item">
-
-        {% include language.html %}
-        
-      </div>
-
-    </div>
+    {% if sidebar.skills %}
+      {% include skills.html %}
+    {% endif %}
 
     {% if sidebar.education %}
       {% include education.html %}

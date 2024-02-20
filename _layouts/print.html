@@ -36,6 +36,13 @@
       text-align: left;
     }
   </style>
+  {% if site.lang == "en" %}
+    <style>
+      .avatar {
+         display: none !important;
+      }
+    </style>
+  {% endif %}
   <body>
     <div class="wrapper">
       {% include sidebar-print.html %}

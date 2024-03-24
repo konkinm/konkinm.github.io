@@ -71,7 +71,7 @@ projects:
         <u>Стек:</u> Spring Boot, Serverless, <a href=\"https://github.com/rubenlagus/TelegramBots\">TelegramBots</a>, <a href=\"https://apod.ellanan.com/api\">REST Api</a> клиент"
 
       - title: Этот сайт
-        link: "https://maxkonkin.space/"
+        link: "https://github.com/konkinm/konkinm.github.io"
         tagline: "Разработал и поддерживаю этот сайт основанный на сильно модифицированной Джекилл теме: добавлена
          интернационализация а также экспорт PDF-версии страничек с помощью Github Action CI/CD.<br>
         <u>Стек:</u> Jekyll, Github Pages, Github Actions"

@@ -71,6 +71,12 @@ projects:
         Deployed on Yandex Cloud: <a href=\"https://t.me/NASAPic_bot\">link</a><br>
         <u>Stack:</u> Spring Boot, Serverless, <a href=\"https://github.com/rubenlagus/TelegramBots\">TelegramBots</a>, <a href=\"https://apod.ellanan.com/api\">REST Api</a>  Client"
 
+      - title: This CV page
+        link: "https://maxkonkin.space/"
+        tagline: "Developed and maintain this site based on a heavily modified Jekyll theme: 
+        i18n has been added, as well as export of a PDF version of pages using Github Action CI/CD.<br>
+        <u>Stack:</u> Jekyll, Github Pages, Github Actions" 
+
 
 education:
     title: Education

@@ -9,6 +9,7 @@
 [Webjeda](https://blog.webjeda.com/) have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
 
 And I slightly modified it for my taste:
+  - i18n added with simple navigation via [jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin);
   - sidebar moved to the left;
   - main sections rearranged;
   - 'Previous experience' section added;
@@ -41,7 +42,7 @@ Also I've added custom GitHub action to convert print.html page to PDF and deplo
 * Your new site should be ready at `https://<username>.github.io/online-cv/`;
 * Printable version of the site can be found at `https://<username>.github.io/online-cv/print`. Use a third party link https://pdflayer.com/, https://www.web2pdfconvert.com/ etc to get the printable PDF.
 
-Change all the details from one place: `_data/data.yml`.
+Change all the details editing .yml files in _i18n directory: `_i18n/*.yml`.
 
 ### To preview/edit locally with docker
 
@@ -50,7 +51,7 @@ docker-compose up
 ```
 
 *docker-compose.yml* file is used to create a container that is reachable under <http://localhost:4000>.
-Changes *_data/data.yml* will be visible after a while.
+Changes *_i18n/lang.yml* will be visible after a while.
 
 ### Local machine
 
